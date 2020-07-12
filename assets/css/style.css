@@ -26,6 +26,14 @@
     background-color: #4e8799;
 }
 
+.ui-menu-color-interests, #interests-tab {
+    background-color: #035873;
+}
+
+.ui-menu-color-github, #github-tab {
+    background-color: #829fa8;
+}
+
 .ui-menu-color-contact {
     background-color: #5fa8bf;
 }

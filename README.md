@@ -1,35 +1,96 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# UCD Resume
 
-Welcome Alissa Troiano,
+As the mini-project for [Code Institute's](https://codeinstitute.net) User Centric Frontend Development portion of the Full Stack Software Development Program, this resume website was built with HTML, CSS and Bootstrap 4.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
 
-## Gitpod Reminders
+The main goals of this website are:
+* Create a web presence.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Display skills and expertise to potential employers.
 
-`python3 -m http.server`
+* Provide a PDF resume that is easy to access and/or print.
 
-A blue button should appear to click: *Expose*,
+## Features
 
-Another blue button should appear to click: *Open Browser*.
+* Timeline/Resume
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Proect Request Form
 
-A blue button should appear to click: *Expose*,
+* Downloadable CV (in the form of a PDF)
 
-Another blue button should appear to click: *Open Browser*.
+### Existing Features
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+* Timeline/Resume
 
-## Updates Since The Instructional Video
+* Proect Request Form
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+* Downloadable CV (in the form of a PDF)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Future Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Google Maps API
 
---------
+* Portfolio section
 
-Happy coding!
+* EmailJS
+
+## Technologies Used
+
+* HTML
+
+* CSS
+
+* Bootstrap
+
+* GitHub
+
+* GitHub Pages
+
+* Git
+
+* GitPod
+
+## Testing
+
+The following tests have been conducted by the developer. Each test described below was accompanied by the actions taken to ensure the tests passed.
+
+* Navigation:
+
+1. Visited the website's navigation bar.
+
+1. Clicked each link.
+
+1. Verified links bring users to the proper section.
+
+1. Repeated steps 1-3 on mobile and tablet.
+
+## Deployment
+
+This project was deployed with [Github Pages](https://pages.github.com/) by taking the following steps:
+
+1. Created repository on GitHub.
+
+1. Exported project to GitPod.
+
+1. Opened project in GitPod.
+
+1. Created index.html.
+
+1. Followed along with Code Institute instructor to build resume website.
+
+1. Committed and pushed all changes to Github.
+
+1. Visited "repository settings" on GitHub.com.
+
+1. Scrolled down to the GitHub Pages section and clicked, "source".
+
+1. Selected the 'master' branch for deployment.
+
+1. Fired up a browser and 
+
+## Credits
+
+* The layout and structure was copied from [Code Institute's](https://codeinstitute.net).
+
+* 

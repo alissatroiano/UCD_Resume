@@ -42,6 +42,14 @@
     background-color: #90ccdf;
 }
 
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
+
 .row-table {
     display: table;
 }
@@ -138,21 +146,12 @@ header {
     color: #fff;
 }
 
-.list-inline-item:not(:last-child) {
+#nav {
     margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
 }
 
 #nav li {
-    font-size: 14px;
     padding: 0;
-}
-
-#nav {
-    margin: 0;
 }
 
 .menuitem {
@@ -164,9 +163,10 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     height: 120px;
 }
+
 
 .menuitem a i {
     padding-top: 22px;
@@ -185,6 +185,7 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 
 /*--------------------------------------------Hover.css*/
 
@@ -404,8 +405,13 @@ div#map {
 
 
 /* ----------------------------------------Media Queries */
-
 @media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
     .center-form {
         padding-top: 30px;
         min-height: 240px;
@@ -413,3 +419,4 @@ div#map {
         max-width: 50%;
     }
 }
+
